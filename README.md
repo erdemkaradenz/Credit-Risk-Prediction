@@ -27,4 +27,5 @@ I processed a large dataset (**Lending Club Data**), performed extensive cleanin
 * `notebooks/`: 
     * `1_data_cleaning.ipynb`: ETL process (Null handling, Encoding).
     * `2_modeling.ipynb`: Model training & Evaluation.
-* `models/`: Contains the serialized `credit_risk_rf_model.pkl` and `scaler.pkl` files ready for deployment.
+* `models/`: Stores the serialized model and scaler files.
+    * *Note: The `.pkl` files are not uploaded to GitHub due to size limits. You can generate them locally by running `notebooks/2_modeling.ipynb`.*
