@@ -1,0 +1,10 @@
+# Python sanal ortamı
+venv/
+
+# Büyük veri dosyaları
+data/
+
+# Jupyter Notebook gereksiz dosyaları
+.ipynb_checkpoints
+__pycache__/
+*.pkl
